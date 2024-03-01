@@ -1,0 +1,31 @@
+#header {
+    background-color: #fff;
+    color: rgb(13, 45, 99);
+    text-align: center;
+    padding: 20px;
+}
+
+#menu {
+    background-color: rgb(13, 45, 99);
+    padding: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu ul li.right {
+    float: right;
+}
