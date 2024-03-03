@@ -1,8 +1,14 @@
+body {
+    background-color: rgb(184, 219, 246);
+    font-family: arial;
+    margin-top: 0;
+}
+
 #header {
     background-color: #fff;
     color: rgb(13, 45, 99);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 #menu {
@@ -19,17 +25,74 @@
 #menu ul li {
     display: inline-block;
     padding: 10px;
+    
 }
 
 #menu ul li a {
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
 }
 
 #menu ul li.right {
     float: right;
 }
 
-#last{
+/*noi dung*/
+.noi-dung {
+    margin-top: 15px;
+    display: flex;
+    
+}
+
+.noi-dung-left{
+    flex: 2;
+}
+
+.noi-dung-left{
+    flex: 1;
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    list-style: none;  
+}
+
+.left-item{
+    margin: 7px;
+    background-color: #fff;
+    padding: 15px;
+
+}
+
+img {
+    width: 330px;
+    height: 202px;
+    text-align: center;
+    padding: 5px;
+}
+
+iframe {
+    width: 91%;
+    height: 180px;
+    padding: 10px;
     text-align: center;
 }
+
+.noi-dung-right li{
+    background-color: #fff;
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    list-style: none;
+    margin-top: -9px;
+}
+
+.last{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.noi-dung-right .fl-me{
+    height: 130px;
+}
+
