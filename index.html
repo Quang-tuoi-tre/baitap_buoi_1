@@ -60,7 +60,7 @@
           Lễ trao giải Tech Awards tối 7/1.</p>
       </div>
 
-      <div class="left-item">
+      <div class="left-item" data-file="quangac.html">
         <p class="item-title"><b>Facebook chi bộn tiền giữ chân nhân viên sau bê bối</b></p>
         <br>
         <img class="img" src="5.jpg" alt="image-5">
@@ -115,6 +115,14 @@
 function openNewPage() {
     window.open("https://www.facebook.com/One.champ.16/", "_blank");
 }
+const leftItems = document.querySelectorAll('.left-item');
+
+leftItems.forEach(function(leftItem) {
+  leftItem.addEventListener('click', function() {
+    const file = leftItem.getAttribute('data-file');
+    window.open(file, '_blank');
+  });
+});
   </script>
 
 </body>
